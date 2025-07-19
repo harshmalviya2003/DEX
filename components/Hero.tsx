@@ -335,14 +335,14 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button
                 ref={el => buttonRefs.current[0] = el}
-                className="px-8 py-4 font-medium rounded-full text-lg bg-blue-600 text-white shadow-lg hover:bg-blue-700 transition-all"
+                className="px-8 py-4 font-medium rounded-full text-lg bg-blue-600 text-white shadow-lg hover:bg-blue-700"
                 style={{ boxShadow: '0 4px 16px rgba(0, 122, 255, 0.3)' }}
               >
                 Join the waitlist
               </button>
               <button
                 ref={el => buttonRefs.current[1] = el}
-                className="px-8 py-4 font-medium rounded-full text-lg border-2 bg-white text-blue-600 border-blue-600 shadow-lg hover:bg-blue-50 transition-all"
+                className="px-8 py-4 font-medium rounded-full text-lg border-2 bg-white text-blue-600 border-blue-600 shadow-lg hover:bg-blue-50"
                 style={{ boxShadow: '0 4px 16px rgba(0, 122, 255, 0.2)' }}
               >
                 Contact us
